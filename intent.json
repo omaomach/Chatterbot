@@ -1,0 +1,100 @@
+{"intent": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Hey", "Hello", "Good day", "Whats up", "Hey there", "Morning", "Afternoon"],
+         "responses": ["Hello!", "Good to hear from you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["hi, my name is (.*)"],
+         "responses": ["hi, %1"],
+         "context_set": ""
+        },
+        {"tag":"fee",
+         "patterns": ["whats your fee structure", "fee structure", "fee"],
+         "responses": ["please proceed to your student account for fee info. or contact our accounting office"],
+         "centext_set": ""
+        },
+        {"tag":"academicyr",
+         "patterns": ["what academic year am I in"],
+         "responses": ["How should i know that. Have you repeated any year?"],
+         "centext_set": ""
+        },
+        {"tag":"onlinecourses",
+         "patterns": ["what online courses do you offer", "do you offer any online courses", "online courses"],
+         "responses": ["We, do not offer any online courses as of now but the recent covid pandemic have shown the importance of online classes"],
+         "centext_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later :(", "Goodbye! :("],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how long have you existed", "how old is Omao", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 21 years old!", "21 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you"],
+         "responses": ["You can call me Omao", "I'm Omao", "I'm Omao aka Joash"],
+         "context_set": ""
+        },
+        {"tag": "created",
+         "patterns": ["who created you", "who made you"],
+         "responses": ["Omao Machoka"],
+         "context_set": ""
+        },
+        {"tag": "system",
+         "patterns": ["I would like to get a receipt", "can i get a receipt"],
+         "responses": ["A cashier will provide you with a receipt, they are available between 8am-4pm"],
+         "context_set": ""
+        },
+        {"tag": "Fee Payment",
+         "patterns": ["what is the deadline for fee payment","deadline for fee payment","fee payment requirement"],
+         "responses": ["Fee balances should be cleared 1 month to examinations"],
+         "context_set": ""
+        },
+        {"tag": "semester",
+         "patterns": ["what is the timeline for semester courses","how long do courses last","what is the period for each course"],
+         "responses": ["courses last for 3-4 months"],
+         "context_set": ""
+        },
+        {"tag": "id",
+         "patterns": ["i lost my student identification card", "i lost my id","how can i get a new student id","where can i apply a new student id"],
+         "responses": ["apply for your student id in your respective online portal or consult necessary school stuff"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["where are you located", "where is TUK located"],
+         "responses": ["We are located opposite Times Towers"],
+         "context_set": ""
+        },
+        {"tag": "courses",
+         "patterns": ["how many courses do you offer","what courses do you offer","what courses are offered in TUK"],
+         "responses": ["We offer a variety of courses ranging from IT to Aeronotical engineering,consult our stuff for more info."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your open hours", "when do you guys close", "hours of operation", "what are your hours of operation", "when are you open"],
+         "responses": ["We are open 8am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "elections",
+         "patterns": ["when do the student elections start", "when are the student elections"],
+         "responses": ["Student elections will start February 13th next year, thats actually my birthday"]
+        },
+        {"tag": "leader",
+         "patterns": ["who is the current student leader", "who is the student leader", "who is the leader of the students"],
+         "responses": ["how the fact do you expect me to know that"]
+        },
+        {"tag": "extracurricular",
+         "patterns": ["what are some of the extracurricular activities offered in TUK", "what extracurricular activities exist", "what extracurricular activities are offered"],
+         "responses": ["Mmmh, i can say there is Student Government,Academic Teams and Clubs, internships and many more. Contact the student body for more information"]
+        },
+        {"tag": "vice",
+         "patterns": ["who is the vice chancellor", "who is TUK's vice chancellor"],
+         "responses": ["Francis Aduol"]
+        }
+
+   ]
+}
